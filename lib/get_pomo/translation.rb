@@ -1,6 +1,6 @@
 module GetPomo
   class Translation
-    FUZZY_REGEX = /^#,\s*fuzzy/
+    FUZZY_REGEX = /^,\s*fuzzy/
     attr_accessor :msgid, :msgstr, :msgctxt, :comment
 
     def add_text(text,options)
